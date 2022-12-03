@@ -1,0 +1,55 @@
+.banner-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .img{
+    width: 1000px;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px;
+  }
+  
+  
+  .banner-story{
+  
+    margin-top: 142px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+  }
+  
+  .img-story{
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .img-story:hover{
+    transform: scale(1.05);
+    transition: all 100ms;
+  }
+  
+  .img-videos{
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .img-videos:hover{
+    transform: scale(1.05);
+    transition: all 100ms;
+  }
+
+
+  .acesso{
+    padding-left: 174px;
+    margin-top: 76px;
+    background: linear-gradient(180deg, #5515C2 7.55%, rgba(142, 21, 194, 0.913071) 23.7%, #F56928 99.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }

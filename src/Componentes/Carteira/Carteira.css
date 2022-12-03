@@ -1,0 +1,106 @@
+#numero-coins {
+    font-size: 40px;
+}
+
+#simulacoes {
+    display: flex;
+}
+
+#bloco-main {
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    width: 15vw;
+    height: 10vh;
+    color: white;
+    background-color: #5515C2;
+}
+
+#simulacoes-texto {
+    width: 15vw;
+    height: 15vh;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #5515C2;
+}
+
+#carteira-simulacao {
+    margin-bottom: 80px;
+}
+
+.bloco {
+    display: flex;
+    width: 15vw;
+    font-size: 15px;
+    color: white;
+    background-color: #1b4dd8;
+    border: 1px solid black;
+}
+
+.bg-gradiente {
+    background-image: linear-gradient(90deg, #5515C2 7.55%, rgba(142, 21, 194, 0.913071) 22.75%, #F56928 99.3%);
+    height: 20vh;
+    width: 80%;
+}
+
+.linha {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.texto-laranja {
+    color: #F56928;
+}
+
+.texto-roxo {
+    color: #5515C2;
+}
+
+.texto-gradiente {
+    padding-left: 50px ;
+    margin-bottom: 80px;
+    font-size: 38px;
+    background: linear-gradient(180deg, #5515C2 7.55%, rgba(142, 21, 194, 0.913071) 22.75%, #F56928 99.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.premio{
+    width: 80%;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.premio-texto{
+    margin-left: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.content {
+    padding-top: 3%;
+    padding-left: 10%;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bloco-main{
+    position: relative;
+}
+
+.breve{
+    position: absolute;
+    z-index: 100;
+    left: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.501);
+    padding: 0.2rem;
+}

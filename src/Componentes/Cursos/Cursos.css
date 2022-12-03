@@ -1,0 +1,26 @@
+
+.swiper-wrapper{
+    display: flex;
+    margin-right: 25px;
+    margin-bottom: 110px;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.swiper-wrapper img{
+    width: 245px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.swipermySwiper p{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.swiper-wrapper img:hover{
+    transform: scale(1.1);
+    transition: all 100ms;
+}
+

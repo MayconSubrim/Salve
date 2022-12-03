@@ -1,0 +1,118 @@
+
+
+.LoginArea{
+    width: 25vw;
+    height: 100vh;
+    background-color: #6422F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.inputs{
+    width: 80%;
+    height: 192px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.singin{
+    width: 100%;
+    border: 0;
+    border-radius: 17px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-weight:bold ;
+}
+
+.singin:focus{
+    outline: none;
+}
+
+.entrar{
+    display: block;
+    width: 100%;
+    height: 56px;
+    border: 0;
+    border-radius: 17px;
+    background-color: #F27830;
+    color: #fff;
+    font-weight: bold;
+}
+
+.inputs:last-child{
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .inputs button{
+    border: 0;
+    border-radius: 17px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+} */
+
+.inputs p{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.IconLogin{
+    font-size: 30px;
+    color: #7021BF;
+    margin-right: 10px;
+}
+
+.SVG{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.imagemzada{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagemzada p{
+    font-size: 40px;
+    width: 438px;
+    text-align: center;
+    color: #F27830;
+}
+
+.imagemzada img{
+    position: relative;
+    height: 80%;
+    top: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .imagemzada img{
+        width: 100%;
+    }
+
+    .LoginArea{
+        width: 200px;
+    }
+}
