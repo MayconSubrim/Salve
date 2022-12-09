@@ -12,7 +12,7 @@ export default function  GamePage () {
             <div className="imagem">
                 <div className="games">
                     
-                    <h3>Salvinhoinho</h3>
+                    <h3>SalveGame</h3>
                     <p>Um jogo ends-runner, onde o jogador caminha por um cenario com o objetivo de ficar o maximo de tempo possivel vivo.</p>
                     <button>Jogar</button>
                     
