@@ -68,3 +68,21 @@ h2{
     transform: scale(1.2);
     transition: all 100ms;
 }
+
+
+@media screen and (max-width: 480px) {
+
+
+    .Wraper{
+        flex-wrap: wrap;
+    }
+
+    .imagem{
+        margin-bottom: 20px;
+    }
+
+    .games{
+        margin-bottom: 20px;
+    }
+
+}

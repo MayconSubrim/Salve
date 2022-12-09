@@ -107,3 +107,30 @@
     background-color: rgba(0, 0, 0, 0.501);
     padding: 0.2rem;
 }
+
+
+@media screen and (max-width: 480px) {
+
+
+    .content{
+        margin-top: 100px;
+    }
+
+
+    .bloco{
+        width: 65vw;
+    }
+
+    #bloco-main{
+        width: 65vw;
+    }
+
+    #simulacoes-texto {
+        display: none;
+    }
+
+    .premio{
+        width: 85vw;
+    }
+    
+}

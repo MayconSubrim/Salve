@@ -37,7 +37,7 @@ export default function Signin() {
         <main>
         <div className="imagemzada">
           <p>Transforme seu futuro e se divirta aprendendo!</p>
-          <img src="./images/Loginimage.png"></img>
+          <img src="/images/Loginimage.png"></img>
         </div>
         <div className="LoginArea">
           <div className="inputs">

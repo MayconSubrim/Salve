@@ -50,6 +50,7 @@ export default function LoginPage() {
         <img src="/images/Loginimage.png"></img>
       </div>
       <div className="LoginArea">
+        <img className="LogoSalve" src="/images/logo-removebg-preview.png"></img>
         <div className="inputs">
             
             <form onSubmit={onFinish}>

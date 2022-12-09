@@ -87,3 +87,16 @@
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+
+
+    .inline-block span{
+        display: none;
+    }
+
+    #perfil-detalhe{
+        width: 75%;
+    }
+
+}

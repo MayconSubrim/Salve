@@ -1,5 +1,10 @@
 
-
+.LogoSalve{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 .LoginArea{
     width: 25vw;
     height: 100vh;
@@ -115,4 +120,18 @@
     .LoginArea{
         width: 200px;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .imagemzada{
+        display: none;
+    }
+
+
+    .LoginArea{
+        width: 100vw;
+    }
+
+
+
 }
