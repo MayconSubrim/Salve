@@ -56,7 +56,7 @@
 
 .texto-laranja {
     color:#F56928;
-    float: right;
+
 }
 .inline-block{
     display: inline-block;
@@ -76,7 +76,7 @@
 }
 
 .campo{
-    background-color: lightgray;
+    background-color: lightgray !important;
     padding: 5px;
     border-radius: 6px;
 }

@@ -16,8 +16,8 @@ root.render(
   </React.StrictMode>
 );
 
-// window.onbeforeunload = function () {
-//   localStorage.clear();
+window.onbeforeunload = function () {
+  localStorage.clear();
 
-//   return "";
-// };
+  return "";
+};

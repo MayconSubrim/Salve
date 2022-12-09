@@ -9,7 +9,7 @@ class Carteira extends Component {
                 <div id="wrapper">
                     <div className="linha">
                         <div id="numero-coins">
-                            <p className="texto-laranja">Seus SalveCoins: <span className="texto-roxo">{this.props.coins}</span> <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
+                            <p className="salveqtd">Seus SalveCoins: <span className="texto-roxo">{this.props.coins}</span> <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
                         </div>
                     </div>
                     <div className="bg-gradiente">

@@ -5,13 +5,13 @@ import Carteira from "../Carteira/Carteira";
 import LoginPage from "../loginPage/LoginPage";
 import { useState } from "react";
 import authContext from "../../context/authContext";
-import ThemeProvider from "../../context/ThemeContext";
-import Botao from "../Botão/Botao";
 import { AuthProvider } from "../../context";
 import Signin from "../SingninPage/Singnin";
 import GamePage from "../GamePage/GamePage";
 import MenuInicial from "../MenuInicial/MenuInicial";
 import Cursos from "../Cursos/Cursos";
+import VLibras from "@djpfs/react-vlibras";
+import Acessibilidade from "../Acessibilidade/Acessibilidade";
 
 export default function App() {
   const [loged, setLoged] = useState(false);
@@ -19,11 +19,9 @@ export default function App() {
   return (
 
     <AuthProvider>
-    <ThemeProvider>
       <Router>
         
         <authContext.Provider value={{ loged, setLoged }}>
-          <Botao/>
           <Sidebar />
             <Routes>
               <Route element={<LoginPage/>} path="/" exact />
@@ -46,12 +44,14 @@ export default function App() {
               <Route path="/games" element={<GamePage/>} />
               <Route path="/Menu" element={<MenuInicial/>}/>
               <Route path="/Cursos" element={<Cursos/>}/>
+              
             </Routes>
+            <Acessibilidade/>
+            <VLibras forceOnload={true}/>
         </authContext.Provider>
         
       </Router>
 
-      </ThemeProvider>
       </AuthProvider>
   );
 }
