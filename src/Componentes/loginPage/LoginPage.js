@@ -47,7 +47,7 @@ export default function LoginPage() {
     <main>
       <div className="imagemzada">
         <p>Transforme seu futuro e se divirta aprendendo!</p>
-        <img src="/Images/Loginimage.png"></img>
+        <img src="/Images/loginimage.png"></img>
       </div>
       <div className="LoginArea">
         <img className="LogoSalve" src="/Images/logo-removebg-preview.png"></img>
