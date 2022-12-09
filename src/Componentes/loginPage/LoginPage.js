@@ -47,10 +47,10 @@ export default function LoginPage() {
     <main>
       <div className="imagemzada">
         <p>Transforme seu futuro e se divirta aprendendo!</p>
-        <img src="/images/Loginimage.png"></img>
+        <img src="/Images/Loginimage.png"></img>
       </div>
       <div className="LoginArea">
-        <img className="LogoSalve" src="/images/logo-removebg-preview.png"></img>
+        <img className="LogoSalve" src="/Images/logo-removebg-preview.png"></img>
         <div className="inputs">
             
             <form onSubmit={onFinish}>

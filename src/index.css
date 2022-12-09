@@ -3,12 +3,3 @@ main{
 
 }
 
-
-@media screen and (max-width: 480px) {
-
-
-    .content{
-        margin-top: 100px;
-    }
-
-}

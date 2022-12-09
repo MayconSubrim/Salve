@@ -15,15 +15,15 @@ export default function MenuInicial() {
       <div className="content"> 
           
           <div className='banner-principal'>
-          <img className='img' src="/images/SALVE.png" alt=""/> 
+          <img className='img' src="/Images/SALVE.png" alt=""/> 
           </div>
 
         <h1 className="acesso">Acesse agora:</h1>
 
           <div className='banner-story'>
-            <img className='img-story' src="/images/Story.png" alt=""/>
+            <img className='img-story' src="/Images/Story.png" alt=""/>
   
-            <img className='img-videos' src="/images/Videos.png" onClick={()=>{navigate("/cursos")} } alt=""/>  
+            <img className='img-videos' src="/Images/Videos.png" onClick={()=>{navigate("/cursos")} } alt=""/>  
          
           </div>
   
