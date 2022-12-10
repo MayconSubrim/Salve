@@ -95,6 +95,7 @@
 @media screen and (max-width : 500px){
     .menu{
         height: 100%;
+        position: relative;
     }
     
 }
