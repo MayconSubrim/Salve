@@ -33,9 +33,12 @@ export default function App() {
                     qtCursos="10"
                     recorde="400"
                     nivel="5"
-                    escola="teste"
-                    nome="teste"
-                    linkImg="https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+                    escola="E.E Beatriz Lopes"
+                    nome="Andressa Oliveira"
+                    linkImg="https://st3.depositphotos.com/1715570/14871/i/150/depositphotos_148719843-stock-photo-beautiful-young-black-woman.jpg"
+                    idade="17 anos"
+                    email="Andressa123@gmail.com"
+                    endereco="Rua Ana Rosa n°678"
                   />
                 }
               />

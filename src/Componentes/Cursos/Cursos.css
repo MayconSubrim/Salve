@@ -1,21 +1,33 @@
 
 .swiper-wrapper{
     display: flex;
+    position: relative;
+    bottom: 10px;
     margin-right: 25px;
-    margin-bottom: 110px;
-    width: 80vw;
-    overflow: hidden;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    width: 82vw;
+    height: 27vh;
+    align-items: center;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.041);
+    border: 1px solid rgba(0, 0, 0, 0.071);
 }
 
 .swiper-wrapper img{
     width: 245px;
     margin-right: 25px;
     cursor: pointer;
+    border-radius: 5px;
+    
 }
 
 .swipermySwiper p{
     margin-bottom: 20px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 

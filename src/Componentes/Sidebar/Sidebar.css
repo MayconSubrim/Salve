@@ -51,7 +51,7 @@
 }
 
 .Git{
-    position: absolute;
+    position: fixed;
     left: 12px;
     top: 6.5px;
     font-size: 30px;

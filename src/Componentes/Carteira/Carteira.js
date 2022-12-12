@@ -13,7 +13,7 @@ class Carteira extends Component {
                         </div>
                     </div>
                     <div className="bg-gradiente">
-                        &nbsp;
+                        <img src="/Images/vanlus.png" alt="" width={1300} className="vanlus"></img>
                     </div>
                     <div id="carteira-simulacao">
                         <p style={{ color: 'blue', marginTop: '10px', marginBottom: '10px', fontSize: '30px' }}>Simulador de investimento a longo prazo</p>
