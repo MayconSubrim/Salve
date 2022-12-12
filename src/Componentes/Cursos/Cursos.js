@@ -67,7 +67,7 @@ export default function Cursos() {
 
         <div>
 
-          <img src="/images/entrebecos.png" width={1300} className="vanlus"></img>
+          <img src="/Images/entrebecos.png" width={1300} className="vanlus"></img>
 
         </div>
 
