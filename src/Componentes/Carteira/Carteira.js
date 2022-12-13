@@ -13,7 +13,7 @@ class Carteira extends Component {
                         </div>
                     </div>
                     <div className="bg-gradiente">
-                        <img src="/Images/vanlus.png" alt="" width={1300} className="vanlus"></img>
+                        &nbsp;
                     </div>
                     <div id="carteira-simulacao">
                         <p style={{ color: 'blue', marginTop: '10px', marginBottom: '10px', fontSize: '30px' }}>Simulador de investimento a longo prazo</p>
@@ -70,34 +70,44 @@ class Carteira extends Component {
                         <div className="premio">
                             <img style={{borderRadius:'5px 0px 5px 0px'}} src="https://cidadedesaopaulo.com/wp-content/uploads/2017/03/vitral.jpg" height="150" width="200"/>
                             <div className="premio-texto">
+
                                 <h1 className="texto-laranja">OFICINA FAAP</h1>
                                 <p>Dias: 10,24,30</p>
                                 <p><span className="texto-laranja">Preço: </span> 35 <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
                             </div>
+                          
+                                <button className="btn-resgate">Resgatar</button>
+                                
+                            
                         </div>
                         <div className="premio">
                             <img style={{borderRadius:'5px 0px 5px 0px'}} src="https://cidadedesaopaulo.com/wp-content/uploads/2017/03/vitral.jpg" height="150" width="200"/>
                             <div className="premio-texto">
-                                <h1 className="texto-laranja">OFICINA FAAP</h1>
-                                <p>Dias: 10,24,30</p>
+                                <h1 className="texto-laranja">CINUSP</h1>
+                                <p>Dias: 04,12,19</p>
                                 <p><span className="texto-laranja">Preço: </span> 35 <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
                             </div>
+                            <button className="btn-resgate">Resgatar</button>
+                                
                         </div>
                         <div className="premio">
                             <img style={{borderRadius:'5px 0px 5px 0px'}} src="https://cidadedesaopaulo.com/wp-content/uploads/2017/03/vitral.jpg" height="150" width="200"/>
                             <div className="premio-texto">
-                                <h1 className="texto-laranja">OFICINA FAAP</h1>
-                                <p>Dias: 10,24,30</p>
+                                <h1 className="texto-laranja"> MUSEU CATAVENTO</h1>
+                                <p>Dias: 10,23,27</p>
                                 <p><span className="texto-laranja">Preço: </span> 35 <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
                             </div>
+                            <button className="btn-resgate">Resgatar</button>
+                                
                         </div>
                         <div className="premio">
                             <img style={{borderRadius:'5px 0px 5px 0px'}} src="https://cidadedesaopaulo.com/wp-content/uploads/2017/03/vitral.jpg" height="150" width="200"/>
                             <div className="premio-texto">
-                                <h1 className="texto-laranja">OFICINA FAAP</h1>
-                                <p>Dias: 10,24,30</p>
+                                <h1 className="texto-laranja">OFICINA USP</h1>
+                                <p>Dias: 05,09,20</p>
                                 <p><span className="texto-laranja">Preço: </span> 35 <img src="/img/coin-dollar-2686.png" alt="" height='30px' /></p>
-                            </div>
+                            </div> <button className="btn-resgate">Resgatar</button>
+                                
                         </div>
                     </div>
                 </div>
