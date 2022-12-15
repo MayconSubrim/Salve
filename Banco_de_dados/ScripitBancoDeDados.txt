@@ -1,0 +1,71 @@
+create database if not exists Salve;
+
+Use Salve;
+
+CREATE TABLE IF NOT EXISTS `Salvecoin` (
+  `ID_Salvecoin` INT NOT NULL AUTO_INCREMENT,
+  `qtd` INT(250) NOT NULL,
+  PRIMARY KEY (`ID_Salvecoin`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Aluno` (
+  `ID_Aluno` INT NOT NULL,
+  `email` VARCHAR(80) NOT NULL,
+  `senha` VARCHAR(45) NOT NULL,
+  `idade` INT NOT NULL,
+  `nome` VARCHAR(100) NOT NULL,
+  `ID_Salvecoin` INT NOT NULL AUTO_INCREMENT,
+  `CEP` INT NOT NULL,
+  `Lougradouro` VARCHAR(100) NOT NULL,
+  `Estado` VARCHAR(100) NOT NULL,
+  `Cidade` VARCHAR(100) NOT NULL,
+  `Numero` VARCHAR(100) NULL,
+  `Complemento` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`ID_Aluno`),
+    FOREIGN KEY (`ID_Salvecoin`)
+    REFERENCES `Salvecoin` (`ID_Salvecoin`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
+CREATE TABLE IF NOT EXISTS `Premios` (
+  `ID_premios` INT NOT NULL AUTO_INCREMENT,
+  `Preco` INT NOT NULL,
+  `QtdIngresso` VARCHAR(45) NULL,
+  `ID_Aluno` INT NOT NULL,
+  PRIMARY KEY (`ID_premios`),
+    FOREIGN KEY (`ID_Aluno`)
+    REFERENCES `Aluno` (`ID_Aluno`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE);
+
+
+CREATE TABLE IF NOT EXISTS `Videos` (
+  `ID_Videos` INT NOT NULL AUTO_INCREMENT,
+  `Nome_Video` VARCHAR(100) NOT NULL,
+  `ID_Aluno` INT NOT NULL,
+  PRIMARY KEY (`ID_Videos`),
+    FOREIGN KEY (`ID_Aluno`)
+    REFERENCES `Aluno` (`ID_Aluno`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
+
+CREATE TABLE IF NOT EXISTS `JOGO` (
+  `ID_JOGO` INT NOT NULL AUTO_INCREMENT,
+  `QTD_SalveCoin` INT NOT NULL,
+  `ID_Aluno` INT NOT NULL,
+  `ID_Salvecoin` INT NOT NULL,
+  PRIMARY KEY (`ID_JOGO`),
+    FOREIGN KEY (`ID_Aluno`)
+    REFERENCES `Aluno` (`ID_Aluno`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+    FOREIGN KEY (`ID_Salvecoin`)
+    REFERENCES `Salvecoin` (`ID_Salvecoin`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
