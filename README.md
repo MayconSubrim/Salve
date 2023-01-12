@@ -5,7 +5,7 @@
 
 Este projeto foi desenvolvido como finalização do curso proprofissão do instituto PROA, e trata-se de uma plataforma de preparo financeiro, focado em jovens de escola publicas. O método de ensino é atravez de videos curtos e com gameficação.
 
-para acessar a plataforma, clique no link a seguir: https://salve-iota.vercel.app/Menu, o projeto está em desenvolvimento, e não pretendemos parar. 
+para acessar a plataforma, clique no link a seguir: https://salve-iota.vercel.app/, o projeto está em desenvolvimento, e não pretendemos parar. 
 <br />
 <br />
 
